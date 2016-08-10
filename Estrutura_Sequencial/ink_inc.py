@@ -1,4 +1,8 @@
-area = float(input("Insira o tamanho da area a ser pintada: "))
-if int(area / 3) == 0:
-    print ("Você devera comprar",int(area + 1) / 3)
-print ("E esta quantia de latas custa",int(area / 3 * 80))
+area = int(input("Insira a area em metros quadrados: "))
+
+work = area / 3
+latas = work / 18
+total = latas * 80
+
+print ("A quantidade de latas necessarias é %d\nO valor destas latas é igual a %d" %(latas, total))
+
