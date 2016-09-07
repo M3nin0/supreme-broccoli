@@ -24,10 +24,10 @@ while 1:
 
 
 print("Foram lidos", len(numeros))
-print("Os valores lidos são\n", numeros)
-print("Estes na ordem inversa são\n", numeros[::-1])
-print("A soma de todos os valores é", sum(numeros))
-print("A media destes é:", media)
+print("Os valores lidos sao\n", numeros)
+print("Estes na ordem inversa sao\n", numeros[::-1])
+print("A soma de todos os valores e", sum(numeros))
+print("A media destes e:", media)
 print("Existem %d numeros que tem valor acima da media" %maior)
-print("São eles:\n", a_media)
-print("\n'Nunca acredite no contador de histórias, apenas na história'")
+print("Sao eles:\n", a_media)
+print("\n'Nunca acredite no contador de historias, apenas na historia'")
