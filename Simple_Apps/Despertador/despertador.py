@@ -1,4 +1,4 @@
-#Dispertador simples
+#Despertador simples
 #Install MPG123 for play Song
 
 from datetime import datetime
